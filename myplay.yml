@@ -2,11 +2,11 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install tree
+  - name: install webserver  on  ubuntu nodes
     apt:
       name: tree
       state: present
-  - name: start tree
+  - name: i  want start webserver on ubuntu nodes
     service:
         name: tree
         state: started 
