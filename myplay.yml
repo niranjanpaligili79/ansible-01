@@ -2,11 +2,11 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install git
+  - name: install tree
     apt:
-      name: git
+      name: tree
       state: present
-  - name: i want start git on ubuntu nodes
+  - name: start tree
     service:
-      name: git
-      state: started 
+        name: tree
+        state: started 
