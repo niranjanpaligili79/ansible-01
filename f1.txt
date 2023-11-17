@@ -56,6 +56,8 @@ instead of all there we write only mywebserver
         name: apache2
         state: started 
     when: ansible_os_family=="Debian"
+[mywebserver]
+172.31.7.34
 
 
 
