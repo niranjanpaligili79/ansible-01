@@ -4,3 +4,7 @@
 [myansible]
 172.31.23.121
 
+
+[myansibleubuntu]= apache2
+[myansibleredhat]= httpd
+
