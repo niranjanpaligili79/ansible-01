@@ -1,0 +1,2 @@
+myansibleonubuntu: apache2
+myansibleonRedHat: httpd

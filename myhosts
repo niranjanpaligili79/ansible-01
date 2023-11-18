@@ -3,7 +3,3 @@
 172.31.23.121
 
 
-[mywebserver:vars]
-myansibleubuntu : apache2
-myansibleredhat : httpd
-
