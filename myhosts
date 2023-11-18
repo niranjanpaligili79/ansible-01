@@ -6,6 +6,6 @@
 
 
 [mywebserver:vars]
-myansibleubuntu= apache2
-myansibleredhat= httpd
+myansibleubuntu : apache2
+myansibleredhat : httpd
 
