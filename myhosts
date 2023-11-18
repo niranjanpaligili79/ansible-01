@@ -5,6 +5,7 @@
 172.31.23.121
 
 
-[myansibleubuntu]= apache2
-[myansibleredhat]= httpd
+[mywebserver:vars]
+myansibleubuntu= apache2
+myansibleredhat= httpd
 
