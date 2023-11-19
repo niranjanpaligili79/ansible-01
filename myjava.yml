@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install openjdk on ubuntu nodes
+    apt:
+      name: "{{myjavaonubuntu}}"
+      state: present
+    
+  - name: install openjdk on redhat nodes
+    apt:
+      name: "{{myjavaonredhat}}"
+      state: present
