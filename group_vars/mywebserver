@@ -3,4 +3,4 @@ myansibleonubuntu: apache2
 myansibleonRedHat: httpd
 
 myjavaonubuntu: openjdk-1.8-jdk
-myjavaonredhat:  java-1.8.0-amazon-corretto  
+myjavaonredhat:  java-1.8.0-amazon-corretto-devel 
