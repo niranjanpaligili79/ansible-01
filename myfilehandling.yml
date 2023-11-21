@@ -10,4 +10,4 @@
   - name: copy indexfile into node side
     copy:
       src: myindex
-      dest: /var/index/html/index.html
+      dest: /var/www/html/index.html
