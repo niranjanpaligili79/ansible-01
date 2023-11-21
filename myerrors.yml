@@ -12,7 +12,7 @@
       statee: present
     ignore_errors: yes
 
-  - name: google
+  - name:  install google
     apt: 
       name: google
       state: present
