@@ -12,7 +12,7 @@
       statee: present
     ignore_errors: yes
 
-  - name:  install google
+  - name: wget
     apt: 
-      name: google
+      name: wget
       state: present
