@@ -1,6 +1,5 @@
 ---
-  gather_facts: yes
-  tasks:
+ tasks:
   - name: install webserver on ubuntu nodes
     apt:
       name: "{{myansibleonubuntu}}"
