@@ -14,10 +14,10 @@
     apt:
       name: git
       state: present
-    when: myfirsttaskresult ==" "
+    when: myfirsttaskresult ==""
 
   - name: tree
     apt:
       name: tree
       state: present
-    when: myfirsttaskresult!==" "
+    when: myfirsttaskresult!==""
