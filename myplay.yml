@@ -1,5 +1,4 @@
 ---
- tasks:
   - name: install webserver on ubuntu nodes
     apt:
       name: "{{myansibleonubuntu}}"
