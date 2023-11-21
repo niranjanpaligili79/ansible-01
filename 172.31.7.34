@@ -1,0 +1,11 @@
+---
+- hosts: 172.31.7.34
+  become: yes
+  tasks:
+  - name: i want to install direct linux command
+    command: hostname -i
+    register: myfirsttaskresult
+
+  - name: i want ot display first task result
+    debug:
+        msg: "{{myfirsttaskresult}}"
