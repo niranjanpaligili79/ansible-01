@@ -2,7 +2,7 @@
 - hosts: 172.31.7.34
   become: yes
   tasks: 
-  - include: myfile.yml
+  - include: myplay.yml
   - name: i want to install webserver
     apt:
       name: apache2
