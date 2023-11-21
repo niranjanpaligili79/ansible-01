@@ -9,3 +9,15 @@
   - name: i want ot display first task result
     debug:
         msg: "{{myfirsttaskresult}}"
+      
+  - name : git
+    apt:
+      name: git
+      state: present
+    when: myfirsttaskresult==" "
+
+  - name: tree
+    apt:
+      name: tree
+      state: present
+    when: myfirsttaskresult !==" "
