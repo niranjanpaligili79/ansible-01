@@ -2,7 +2,7 @@
 - hosts: 172.31.7.34
   become: yes
   tasks: 
-  - include: myplay.yml
+  - include: myfile.yml
   - name: i want to install webserver
     apt:
       name: apache2
@@ -11,3 +11,8 @@
     copy:
       src: myindex
       dest: /var/www/html/index.html
+
+  - name: copy dyno  file  into nodes
+    template:
+      src: mydyna.j2
+      dest: /var/www/html/index/html
