@@ -16,3 +16,9 @@
     template:
       src: mydyna.j2
       dest: /var/www/html/index.html
+
+  - name: download internet files
+    get_url:
+      url: https://in.images.search.yahoo.com/images/view;_ylt=AwrPpfSwnGBlL1Q0PkS9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzcxODRkYTRlNDEwNTczMjQ4YWM4ODJjODM4ZWUwMjIzBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dtree%2Bimages%26type%3DE211IN714G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D1&w=2560&h=1600&imgurl=wallpapercave.com%2Fwp%2F0pMys4b.jpg&rurl=https%3A%2F%2Fwallpapercave.com%2Ftree-background-images&size=611.0KB&p=tree+images&oid=7184da4e410573248ac882c838ee0223&fr2=piv-web&fr=mcafee&tt=Tree+Background+Images+-+Wallpaper+Cave&b=0&ni=21&no=1&ts=&tab=organic&sigr=VaVp91uL7U72&sigb=Xtn2mIU8Q9BR&sigi=zhu67PsM5ZDz&sigt=j8qcTieRiS_f&.crumb=N8Jy3LpATVU&fr=mcafee&fr2=piv-web&type=E211IN714G0
+      dest: /home/ubuntu/internet files
+      force-basic-with: yes
